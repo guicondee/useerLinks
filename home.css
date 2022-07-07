@@ -10,13 +10,7 @@ html{
 
 body{
   font-family: 'Roboto', sans-serif;
-  /* background: rgb(63,94,251);
-  background: no-repeat radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(8,3,6,1) 100%); */
-/* 
-  background: rgb(0,0,0);
-  background: no-repeat linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(100,56,154,1) 100%, rgba(107,99,41,1) 100%); */
-
-   background: rgb(184,74,231);
+  background: rgb(184,74,231);
   background: radial-gradient(circle, rgba(184,74,231,1) 0%, rgba(0,0,0,1) 100%); 
 
   
@@ -27,11 +21,11 @@ body{
    
   text-align: center;
   width: 300px;
-  padding: 0px 40px;
+   
 }
  
 .header{
-  width: 100%;
+  width: 60%;
   border-radius: 50%;
   border: 4px solid black;
   padding: 4px;
@@ -49,6 +43,8 @@ h1{
   text-align: center;
 
   color: #00082F;
+  
+   
 
 }
 
@@ -72,12 +68,15 @@ ul{
  
 
  ul li a{
+  
+  width: 300px;
   height: 53px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px 80px;
   gap: 10px;
+  margin-inline: auto;
 
   background: grey;
   border-radius: 6px;
